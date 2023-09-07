@@ -4,7 +4,7 @@ Sandbox for random scripts and notebooks.
 
 ## Navigation
 
-- Standarc numbers: [link](scripts/2023_09_07-standard_numbers.ipynb)
+- Standard numbers: [link](scripts/2023_09_07-standard_numbers.ipynb)
 - Standard security codes: [link](scripts/2023_09_07-security_codes.ipynb)
 - YouTube downloader: [link](scripts/2023_06_16-youtube.py)
 - ZAR/USD calendar year moves: [link](scripts/2023_06_16-zarusd.py)
