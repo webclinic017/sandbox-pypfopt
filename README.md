@@ -4,6 +4,8 @@ Sandbox for random scripts and notebooks.
 
 ## Navigation
 
+- Standarc numbers: [link](scripts/2023_09_07-standard_numbers.ipynb)
+- Standard security codes: [link](scripts/2023_09_07-security_codes.ipynb)
 - YouTube downloader: [link](scripts/2023_06_16-youtube.py)
 - ZAR/USD calendar year moves: [link](scripts/2023_06_16-zarusd.py)
 
@@ -19,15 +21,6 @@ poetry env use $(py -3.10 -c 'import sys; print(sys.executable)')
 
 # install all required dependencies, synchronize environment
 poetry install --sync
-
-# ignore all dependencies besides runtime
-poetry install --only main
-
-# ignore all dependencies besides group_1
-poetry install --only group_1
-
-# ignore all dependencies besides project root
-poetry install --only-root
 
 # without (for required groups), with (for optional groups)
 poetry install --without group_1,group_2 --with group_3,group_4
