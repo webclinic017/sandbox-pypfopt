@@ -9,12 +9,12 @@ test:
 	poetry run pytest tests -v
 
 black:
-	poetry run black src/ scripts/ tests/
+	poetry run black scripts/ tests/
 
 isort:
-	poetry run isort src/ scripts/ tests/
+	poetry run isort scripts/ tests/
 
 flake8:
-	poetry run flake8 src/ scripts/ tests/
+	poetry run flake8 scripts/ tests/
 
 format: black isort
