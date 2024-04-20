@@ -8,13 +8,10 @@ requirements:
 test:
 	poetry run pytest tests -v
 
-black:
-	poetry run black scripts/ tests/
+lint:
+	poetry run ruff check libs packages src tests scripts
+	poetry run ruff format libs packages src tests scripts --check
 
-isort:
-	poetry run isort scripts/ tests/
-
-flake8:
-	poetry run flake8 scripts/ tests/
-
-format: black isort
+format:
+	poetry run ruff check libs packages src tests scripts --fix
+	poetry run ruff format libs packages src tests scripts

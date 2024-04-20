@@ -1,9 +1,9 @@
 import pathlib
 
 import pandas as pd
+
 from pypfopt import EfficientFrontier, expected_returns, risk_models
 from pypfopt.discrete_allocation import DiscreteAllocation, get_latest_prices
-
 
 root_path = pathlib.Path(__file__).parent.parent
 
@@ -51,4 +51,4 @@ if __name__ == "__main__":
         optimized_weights, stock_prices_df, total_investment
     )
     print("Discrete allocation:", allocation)
-    print("Funds remaining: ${:.2f}".format(funds_remaining))
+    print(f"Funds remaining: ${funds_remaining:.2f}")

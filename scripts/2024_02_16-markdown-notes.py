@@ -2,7 +2,7 @@ import re
 
 
 def parse_markdown_file(filename):
-    with open(filename, 'r') as file:
+    with open(filename) as file:
         content = file.read()
 
     # Splitting the content into sections based on dates

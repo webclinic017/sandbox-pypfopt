@@ -14,7 +14,6 @@ import pandas as pd
 import seaborn as sns
 import yfinance as yf
 
-
 sns.set_style("whitegrid")
 fig = plt.figure(figsize=(14, 6))
 
