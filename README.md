@@ -4,12 +4,12 @@ Sandbox for random scripts and notebooks.
 
 ## Navigation
 
-- Portfolio optimisation: [link](scripts/2023_12_14-pyportfolioopt.py) `2023-12-14`
-- Excel reformat: [link](scripts/2023_10_18-excel-reformat.py) `2023-10-18`
-- Standard numbers: [link](scripts/2023_09_07-standard_numbers.ipynb) `2023-09-07`
-- Standard security codes: [link](scripts/2023_09_07-security_codes.ipynb) `2023-09-07`
-- YouTube downloader: [link](scripts/2023_06_16-youtube.py) `2023-06-16`
-- ZAR/USD calendar year moves: [link](scripts/2023_06_16-zarusd.py) `2023-06-16`
+- Portfolio optimisation: [link](scripts/6_2023_12_14-pyportfolioopt.py) `2023-12-14`
+- Excel reformat: [link](scripts/5_2023_10_18-excel-reformat.py) `2023-10-18`
+- Standard numbers: [link](scripts/4_2023_09_07-standard_numbers.ipynb) `2023-09-07`
+- Standard security codes: [link](scripts/3_2023_09_07-security_codes.ipynb) `2023-09-07`
+- ZAR/USD calendar year moves: [link](scripts/2_2023_06_16-zarusd.py) `2023-06-16`
+- YouTube downloader: [link](scripts/1_2023_06_16-youtube.py) `2023-06-16`
 
 ## Development
 
