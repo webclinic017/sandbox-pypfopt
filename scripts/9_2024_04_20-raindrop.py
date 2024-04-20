@@ -49,7 +49,7 @@ def parse_response(data: dict) -> List[dict]:
 def create_markdown(items):
     markdown_content = "# Extracted Links and Titles\n\n"
     for item in items:
-        markdown_content += f"- **Title:** {item['title']}\n  - **Link:** {item['link']}\n  - **Created:** {item['created']}\n\n"
+        markdown_content += f"- **Title:** {item['title']}\n  - **Link:** {item['link']}\n  - **Created:** {item['created']}\n"
 
     with open(OUTPUT_PATH / f"{CURRENT_DATE}_extracted_links.md", "w") as file:
         file.write(markdown_content)
